@@ -10,6 +10,8 @@ I changed the color scheme of about 90% of the website
 
 For my work section, I added a carousel that shows pictures of projects that i've worked on. The pictures have the functionality of being clicked on which will take you to the deployed project. The picture carousel was used from w3 schools: https://www.w3schools.com/howto/howto_js_slideshow.asp.
 
+Further, I've attatched a link to my updated resume on my website
+
 Added a contact form I used from https://codepen.io/colorlib/pen/KVoZyv
 
 <img width="960" alt="port1" src="https://user-images.githubusercontent.com/70598209/101432798-24b29080-38cf-11eb-986c-8da4cf120b69.PNG">
