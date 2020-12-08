@@ -1,0 +1,512 @@
+body{
+    background-color: rgb(247, 243, 238);
+}
+
+.container h1{
+    font-size: xx-large;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%;
+    background-image: linear-gradient(to right, rgb(247, 243, 238), black, black);
+}
+
+.container ul {
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 77px;
+    align-items: center;
+  }
+  
+  .container li {
+    float: right;
+  }
+
+  
+  .container li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  .container li a:hover {
+    background-color: rgb(247, 243, 238);
+    color: black;
+  }
+
+#videoDiv {
+    width: 100%; 
+    height: 532px; 
+    position: relative;  
+    overflow: hidden;
+    background-image: url('Bf64580dfb9f301a0949e60106526057.1824x0_q100_watermark_watermark_opacity-10_watermark_position-6_watermark_text-Copyright_Intihuatana-702x336.jpg');
+
+}
+#video1 { 
+    margin: auto; 
+    display: block;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.aboutMe .h11{
+    background-color: rgb(247, 243, 238);
+    order: 1;
+    width: 33%;
+    color: rgb(247, 243, 238);
+}
+
+.aboutMe .h12{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: black;
+    color: cornsilk;
+    width: 33%;
+    order: 2;
+}
+
+.aboutMe .h13{
+    background-color: rgb(247, 243, 238);
+    order: 3;
+    width: 33%;
+    color: rgb(247, 243, 238);
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(247, 243, 238);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+.container2 p{
+    width: 50%;
+    flex-shrink: 0;
+    color: rgb(247, 243, 238);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: black;
+    padding: 1%;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.work .h11{
+    background-color: rgb(247, 243, 238);
+    order: 1;
+    width: 33%;
+    color: rgb(247, 243, 238);
+}
+
+.work .h12{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: black;
+    color: cornsilk;
+    width: 33%;
+    order: 2;
+}
+
+.work .h13{
+    background-color: rgb(247, 243, 238);
+    order: 3;
+    width: 33%;
+    color: rgb(247, 243, 238);
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(247, 243, 238);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.container3 .workImage1{
+    width: 50%;
+    padding-right: 1%;
+}
+
+.container3 .workImage2{
+    width: 50%;
+    padding-right: 1%;
+}
+
+.container3 .workImage3{
+    width: 50%;
+    padding-right: 1%;
+}
+
+.container3 .workImage4{
+    width: 50%;
+    padding-right: 1%;
+}
+
+.contactMe{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.contactMe .h11{
+    background-color: rgb(247, 243, 238);
+    order: 1;
+    width: 33%;
+    color: rgb(247, 243, 238);
+}
+
+.contactMe .h12{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: black;
+    color: cornsilk;
+    width: 33%;
+    order: 2;
+}
+
+.contactMe .h13{
+    background-color: rgb(247, 243, 238);
+    order: 3;
+    width: 33%;
+    color: rgb(247, 243, 238);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.contactForm {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: black;
+  color: rgb(247, 243, 238);
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: black;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+.container4 .phone{
+    width: 12%;
+    order: 2;
+    flex-shrink: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bolder;
+}
+
+.container4 .email{
+    width: 10%;
+    order: 2;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bolder;
+}
+
+.container4 .linked{
+    width: 10%;
+    order: 2;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bolder;
+}
+
+.container4 .git{
+    width: 10%;
+    order: 2;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bolder;
+}
+
+.resume{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.resume .h11{
+    background-color: rgb(247, 243, 238);
+    order: 1;
+    width: 33%;
+    color: rgb(247, 243, 238);
+}
+
+.resume .h12{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: black;
+    color: cornsilk;
+    width: 33%;
+    order: 2;
+}
+
+.resume .h13{
+    background-color: rgb(247, 243, 238);
+    order: 3;
+    width: 33%;
+    color: rgb(247, 243, 238);
+}
+
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: rgb(247, 243, 238);
+}
+
+.container5 .resume{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-shadow: 5px 5px 7px #000000;
+}
